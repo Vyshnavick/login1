@@ -1,7 +1,4 @@
-// src/features/Notification/notificationSlice.ts
-
 import { createSlice } from '@reduxjs/toolkit'
-
 export interface notificationState {
   id: number
   type: string
