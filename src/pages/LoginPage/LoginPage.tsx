@@ -1,10 +1,3 @@
-/*
-Author: Eli Elad Elrom
-Website: https://EliElrom.com
-License: MIT License
-Component: src/pages/LoginPage/LoginPage.tsx
-*/
-
 import React from 'react'
 import './LoginPage.scss'
 import { RouteComponentProps } from 'react-router-dom'
