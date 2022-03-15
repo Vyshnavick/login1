@@ -1,10 +1,3 @@
-/*
-Author: Eli Elad Elrom
-Website: https://EliElrom.com
-License: MIT License
-Component: src/components/Toast/ToastNotification.tsx
-*/
-
 import React, { useState } from 'react'
 import './ToastNotification.scss'
 import { ToastComponent, toastObject } from './ToastComponent'
@@ -27,7 +20,6 @@ export const ToastNotification: React.FunctionComponent<IToastNotificationProps>
     if (notification.id !== -1) {
       showToast(notification.id, notification.type, notification.description)
 
-      // show only one message at a time
       store.dispatch(
         setNotification({
           id: -1,
