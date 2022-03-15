@@ -1,10 +1,3 @@
-/*
-Author: Eli Elad Elrom
-Website: https://EliElrom.com
-License: MIT License
-Component: TemplateName.tsx
-*/
-
 import React from 'react';
 import './TemplateName.scss';
 import { RouteComponentProps } from 'react-router-dom'
